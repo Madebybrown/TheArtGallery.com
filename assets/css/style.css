@@ -19,6 +19,10 @@ body {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Grid Layout, Credit to - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */
 .wrapper {
     width: 100vw;
@@ -73,6 +77,24 @@ body {
     background-position: center;
 }
 
+/* Navbar */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li > a {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Header */
 .logo {
     grid-column-start: 1;
     grid-column-end: 14;
@@ -81,7 +103,7 @@ body {
     display: grid;
 }
 
-.logo > h1 {
+.logo > header > h1 {
     font-size: 5.5vmin;
     color: #eeebd9;
     text-align: center;
@@ -92,13 +114,7 @@ body {
     justify-content: center;
 }
 
-/* .line {
-    width: 250px;
-    height: 1px;
-    border-bottom: 5px solid #eeebd9;
-} */
-
-.logo > p {
+.logo > header > p {
     font-size: 3vmin;
     color: #eeebd9;
     height: 50%;
