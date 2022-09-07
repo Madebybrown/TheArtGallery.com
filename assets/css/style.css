@@ -72,3 +72,21 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    display: grid;
+}
+
+h1 {
+    color: #eeebd9;
+    text-align: center;
+    height: 90%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
