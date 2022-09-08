@@ -21,6 +21,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #191919;
 }
 
 /* Grid Layout, Credit to - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */
@@ -82,6 +83,20 @@ ul {
     list-style-type: none;
     overflow: hidden;
     text-align: center;
+}
+
+.nav-list1 {
+    float: left;
+    padding-left: 9%;
+    padding-top: 2%;
+    padding-bottom: 1.78%;
+}
+
+.nav-list2 {
+    float: right;
+    padding-right: 9%;
+    padding-top: 2%;
+    padding-bottom: 1.78%;
 }
 
 li {
