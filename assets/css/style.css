@@ -82,7 +82,7 @@ a:hover {
     background-position: center;
 }
 
-/* Navbar */
+/* Navbar box1 */
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -117,7 +117,16 @@ li > a {
     text-align: center;
 }
 
-/* Header */
+/* Left Side box2 */
+.box2 > p {
+    font-size: 3vmin;
+    writing-mode: vertical-lr;
+    text-align: right;
+    padding-left: 45%;
+    padding-bottom: 120%;
+}
+
+/* Header box4 */
 .logo {
     grid-column-start: 1;
     grid-column-end: 14;
@@ -145,4 +154,8 @@ li > a {
     text-align: center;
     font-style: italic;
     font-weight: lighter;
+}
+
+.line {
+    text-decoration: underline;
 }
