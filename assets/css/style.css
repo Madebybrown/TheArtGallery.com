@@ -24,6 +24,10 @@ a {
     color: #191919;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* Grid Layout, Credit to - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */
 .wrapper {
     width: 100vw;
@@ -97,6 +101,10 @@ ul {
     padding-right: 9%;
     padding-top: 2%;
     padding-bottom: 1.78%;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 li {
