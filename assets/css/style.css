@@ -25,7 +25,10 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #eeebd9;
+    border: #191919;
+    background: #191919;
+    border-radius: 5px;
 }
 
 /* Grid Layout, Credit to - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */
