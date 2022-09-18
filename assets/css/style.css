@@ -204,4 +204,10 @@ nav #menu-icon {
     nav ul.show{
         left: 0;
     }
+    .logo > header > h1 {
+        font-size: 40px;
+    }
+    .logo > header > p {
+        font-size: 20px;
+    }
 }
