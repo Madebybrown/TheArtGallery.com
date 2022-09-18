@@ -37,7 +37,7 @@ body {
     background: #eeebd9;
 }
 
-.box2 {
+/* .box2 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -45,10 +45,10 @@ body {
     display: grid;
 
     background: #eeebd9;
-}
+} */
 
 .box3 {
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 14;
     grid-row-start: 9;
     grid-row-end: 10;
@@ -58,7 +58,7 @@ body {
 }
 
 .box4 {
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 14;
     grid-row-start: 2;
     grid-row-end: 9;
@@ -74,8 +74,8 @@ body {
 }
 
 /* Navbar box1 */
-.emblem {
-    height: 80px;
+/* .emblem {
+    height: 87px;
     width: 80px;
     float: left;
     position: relative;
@@ -85,7 +85,7 @@ body {
     height: 70px;
     width: 70px;
     margin: 25px 20px 20px 20px;
-}
+} */
 
 nav {
     height: 97px;
@@ -107,13 +107,13 @@ nav ul {
     list-style-type: none;
     overflow: hidden;
     text-align: center;
-    margin: 5px;
 }
 
 .nav-list1 {
-    float: center;
+    float: right;
     font-size: 25px;
     padding: 0 100px 0 100px;
+    height: 100%;
 }
 
 nav li {
@@ -157,7 +157,7 @@ nav #menu-icon {
 }
 
 .logo > header > h1 {
-    font-size: 5.5vmin;
+    font-size: 50px;
     color: #eeebd9;
     text-align: center;
     width: 100%;
@@ -167,7 +167,7 @@ nav #menu-icon {
 }
 
 .logo > header > p {
-    font-size: 3vmin;
+    font-size: 25px;
     color: #eeebd9;
     height: 50%;
     width: 100%;
