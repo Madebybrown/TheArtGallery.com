@@ -185,6 +185,7 @@ nav #menu-icon {
         top: 80px;
         left: -100%;
         text-align: center;
+        transition: all .3s;
     }
     nav a {
         font-size: 20px;
@@ -196,5 +197,8 @@ nav #menu-icon {
     }
     a.active, a:hover {
         color: #598e8e;
+    }
+    nav ul.show{
+        left: 0;
     }
 }
