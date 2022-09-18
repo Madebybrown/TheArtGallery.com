@@ -132,6 +132,14 @@ li > a {
     text-align: center;
 }
 
+nav #menu-icon {
+    color: #191919;
+    font-size: 30px;
+    line-height: 87px;
+    float: right;
+    margin-right: 40px;
+}
+
 /* Left Side box2 */
 .box2 > p {
     font-size: 3vmin;
