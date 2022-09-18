@@ -19,13 +19,6 @@ body {
     font-weight: bold;
 }
 
-/* a:hover {
-    color: #eeebd9;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    padding: 7px;
-} */
-
 /* Grid Layout, Credit to - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout */
 .wrapper {
     width: 100vw;
@@ -112,13 +105,13 @@ nav ul {
 .nav-list1 {
     float: left;
     font-size: 30px;
-    padding: 0 150px;
+    padding: 0 15px 0 150px;
 }
 
 .nav-list2 {
     float: right;
     font-size: 30px;
-    padding: 0 130px;
+    padding: 0 130px 0 15px;
 }
 
 nav li {
@@ -138,6 +131,8 @@ nav #menu-icon {
     line-height: 87px;
     float: right;
     margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 /* Left Side box2 */
@@ -181,4 +176,14 @@ nav #menu-icon {
 
 .line {
     text-decoration: underline;
+}
+
+/* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
+@media screen and (max-width: 1024px) {
+    nav ul {
+        margin-right: 20px;
+    }
+    nav a {
+        font-size: 25px;
+    }
 }
