@@ -74,6 +74,19 @@ body {
 }
 
 /* Navbar box1 */
+.emblem {
+    height: 80px;
+    width: 80px;
+    float: left;
+    position: relative;
+}
+
+.emblem-img {
+    height: 70px;
+    width: 70px;
+    margin: 25px 20px 20px 20px;
+}
+
 nav {
     height: 97px;
     width: 100%;
@@ -127,11 +140,11 @@ nav #menu-icon {
 
 /* Left Side box2 */
 .box2 > p {
-    font-size: 3vmin;
+    font-size: 25px;
     writing-mode: vertical-lr;
     text-align: right;
-    padding-left: 45%;
-    padding-bottom: 120%;
+    padding: 40px 40px 130px 40px;
+    line-height: 45px;
 }
 
 /* Header box4 */
@@ -147,7 +160,6 @@ nav #menu-icon {
     font-size: 5.5vmin;
     color: #eeebd9;
     text-align: center;
-    height: 50%; 
     width: 100%;
     display: flex;
     align-items: center;
