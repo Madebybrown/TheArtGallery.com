@@ -37,16 +37,6 @@ body {
     background: #eeebd9;
 }
 
-/* .box2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 10;
-    display: grid;
-
-    background: #eeebd9;
-} */
-
 .box3 {
     grid-column-start: 1;
     grid-column-end: 14;
@@ -74,7 +64,7 @@ body {
 }
 
 /* Navbar box1 */
-/* .emblem {
+.emblem {
     height: 87px;
     width: 80px;
     float: left;
@@ -84,8 +74,9 @@ body {
 .emblem-img {
     height: 70px;
     width: 70px;
-    margin: 25px 20px 20px 20px;
-} */
+    margin: 15px 10px 10px 10px;
+    padding: 10px;
+}
 
 nav {
     height: 97px;
