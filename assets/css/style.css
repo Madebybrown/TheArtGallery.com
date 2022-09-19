@@ -288,16 +288,60 @@ nav #menu-icon {
     .mission-img {
         width: 280px;
         height: 280px;
-        margin: 70px 75px 10px 75px;
+        margin: 70px 67px 10px 67px;
     }
     .text h2 {
         font-size: 25px;
-        margin-left: 75px;
+        margin-left: 67px;
     }
     .text p {
-        margin-left: 75px;
-        margin-right: 75px;
+        margin-left: 67px;
+        margin-right: 67px;
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .logo > header > h1 {
+        font-size: 30px;
+    }
+    .logo > header > p {
+        font-size: 13px;
+    }
+    .mission-img {
+        width: 280px;
+        height: 280px;
+        margin: 70px 57px 10px 57px;
+    }
+    .text h2 {
+        margin-left: 57px;
+    }
+    .text p {
+        margin-left: 57px;
+        margin-right: 70px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .logo > header > h1 {
+        font-size: 30px;
+    }
+    .logo > header > p {
+        font-size: 13px;
+    }
+    .mission-img {
+        width: 280px;
+        height: 280px;
+        margin: 70px 58px 10px 58px;
+    }
+    .text h2 {
+        margin-left: 58px;
+    }
+    .text p {
+        margin-left: 58px;
+        margin-right: 70px;
+        font-size: 12px;
     }
 }
 
@@ -311,10 +355,35 @@ nav #menu-icon {
     .mission-img {
         width: 240px;
         height: 240px;
-        margin: 70px 70px 10px 70px;
+        margin: 40px 67px 10px 68px;
+    }
+    .text h2 {
+        margin-left: 68px;
     }
     .text p {
-        margin-left: 70px;
+        margin-left: 68px;
+        margin-right: 70px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo > header > h1 {
+        font-size: 30px;
+    }
+    .logo > header > p {
+        font-size: 13px;
+    }
+    .mission-img {
+        width: 240px;
+        height: 240px;
+        margin: 40px 60px 10px 60px;
+    }
+    .text h2 {
+        margin-left: 60;
+    }
+    .text p {
+        margin-left: 60px;
         margin-right: 70px;
         font-size: 12px;
     }
