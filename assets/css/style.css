@@ -72,10 +72,9 @@ body {
 }
 
 .emblem-img {
-    height: 70px;
-    width: 70px;
-    margin: 15px 10px 10px 10px;
-    padding: 10px;
+    height: 80px;
+    width: 80px;
+    margin: 10px 10px 10px 0;
 }
 
 nav {
@@ -157,19 +156,21 @@ nav #menu-icon {
     justify-content: center;
 }
 
+.line {
+    text-decoration: underline;
+}
+
 .logo > header > p {
     font-size: 25px;
     color: #eeebd9;
-    height: 50%;
+    height: 30%;
     width: 100%;
     text-align: center;
     font-style: italic;
     font-weight: lighter;
 }
 
-.line {
-    text-decoration: underline;
-}
+
 
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
 /* @media screen and (max-width: 1024px) {
