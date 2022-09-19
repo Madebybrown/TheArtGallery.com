@@ -170,7 +170,10 @@ nav #menu-icon {
     font-weight: lighter;
 }
 
-
+.enter  {
+    text-align: center;
+    color: #eeebd9;
+}
 
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
 /* @media screen and (max-width: 1024px) {
