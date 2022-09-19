@@ -223,3 +223,30 @@ nav #menu-icon {
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .logo > header > h1 {
+        font-size: 35px;
+    }
+    .logo > header > p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo > header > h1 {
+        font-size: 30px;
+    }
+    .logo > header > p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo > header > h1 {
+        font-size: 28px;
+    }
+    .logo > header > p {
+        font-size: 12px;
+    }
+}
