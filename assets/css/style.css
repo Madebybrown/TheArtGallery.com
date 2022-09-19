@@ -214,6 +214,16 @@ nav #menu-icon {
     margin-left: 100px;
 }
 
+/* Footer */
+.socials {
+    text-align: center;
+}
+
+.fa-linkedin, .fa-square-github {
+    margin: 30px;
+    color: #191919;
+}
+
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
 @media screen and (max-width: 1440px) {
     .text p {
