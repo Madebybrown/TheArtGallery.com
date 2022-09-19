@@ -50,8 +50,8 @@ body {
 .box4 {
     grid-column-start: 1;
     grid-column-end: 14;
-    grid-row-start: 2;
-    grid-row-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 10;
     display: grid;
 
     background: #191919;
@@ -170,9 +170,17 @@ nav #menu-icon {
     font-weight: lighter;
 }
 
-.enter  {
+.enter {
     text-align: center;
+}
+
+.enter a {
     color: #eeebd9;
+    text-decoration: none;
+}
+
+.enter a:hover {
+    color: #598e8e;
 }
 
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
