@@ -37,6 +37,16 @@ body {
     background: #eeebd9;
 }
 
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    display: grid;
+
+    background: #eeebd9;
+}
+
 .box3 {
     grid-column-start: 1;
     grid-column-end: 14;
@@ -128,15 +138,6 @@ nav #menu-icon {
     margin-right: 40px;
 }
 
-/* Left Side box2 */
-.box2 > p {
-    font-size: 25px;
-    writing-mode: vertical-lr;
-    text-align: right;
-    padding: 40px 40px 130px 40px;
-    line-height: 45px;
-}
-
 /* Header box4 */
 .logo {
     grid-column-start: 1;
@@ -181,6 +182,13 @@ nav #menu-icon {
 
 .enter a:hover {
     color: #598e8e;
+}
+
+/* Mission.html style */
+.mission-img {
+    width: 450px;
+    height: 450px;
+    margin: 70px 30px 10px 100px;
 }
 
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
