@@ -189,7 +189,28 @@ nav #menu-icon {
 .mission-img {
     width: 450px;
     height: 450px;
-    margin: 70px 30px 10px 100px;
+    margin: 70px 30px 30px 100px;
+}
+
+img {
+    float: left;
+}
+
+.text {
+    margin-top: 270px;
+    
+}
+
+.text h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.text p {
+    text-transform: none;
+    font-style: italic;
+    font-weight: lighter;
+    margin-right: 100px;
 }
 
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
