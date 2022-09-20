@@ -225,6 +225,14 @@ nav #menu-icon {
 }
 
 /* Gallery */
+.img-boxes-wrapper {
+    width: 100%;
+    background-color: #eeebd9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-boxes {
     width: 350px;
     height: 610px;
