@@ -234,7 +234,7 @@ nav #menu-icon {
 }
 
 .img-boxes {
-    width: 350px;
+    width: 400px;
     height: 610px;
     background-color: #191919;
     border: 2px;
@@ -244,16 +244,21 @@ nav #menu-icon {
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    margin: 50px 20px;
 }
 
 .gallery-img {
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    padding: 10px;
 }
 
 .img-boxes h2 {
     font-size: 15px;
     color: #eeebd9;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-boxes h3 {
@@ -269,6 +274,13 @@ nav #menu-icon {
 
 .img-boxes a:hover {
     color: #598e8e;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
