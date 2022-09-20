@@ -159,7 +159,7 @@ nav #menu-icon {
 }
 
 .line {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .logo > header > p {
@@ -187,9 +187,9 @@ nav #menu-icon {
 
 /* Mission.html style */
 .mission-img {
-    width: 450px;
-    height: 450px;
-    margin: 70px 30px 30px 100px;
+    width: 600px;
+    height: 600px;
+    margin: 50px 30px 30px 100px;
 }
 
 .img > img {
@@ -201,16 +201,16 @@ nav #menu-icon {
 }
 
 .text h2 {
-    text-decoration: underline;
     margin-bottom: 10px;
     margin-left: 100px;
+    font-size: 25px;
 }
 
 .text p {
     text-transform: none;
     font-style: italic;
     font-weight: lighter;
-    margin-right: 700px;
+    margin-right: 300px;
     margin-left: 100px;
 }
 
@@ -227,13 +227,13 @@ nav #menu-icon {
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
 @media screen and (max-width: 1440px) {
     .text p {
-        margin-right: 400px;
+        margin-right: 200px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .text p {
-        margin-right: 100px;
+        margin-right: 20px;
         font-size: 18px;
     }
 }
