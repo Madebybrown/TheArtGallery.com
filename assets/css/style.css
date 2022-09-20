@@ -224,6 +224,15 @@ nav #menu-icon {
     color: #191919;
 }
 
+/* Gallery */
+.img-boxes {
+    width: 350px;
+    height: 610px;
+    background-color: #191919;
+    border: 2px;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+}
+
 /* Credit to - https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/ */
 @media screen and (max-width: 1440px) {
     .text p {
